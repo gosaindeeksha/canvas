@@ -1,0 +1,29 @@
+/* App.css */
+.canvas-container {
+ min-width: 100%;
+ min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  overflow: auto;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.canvas {
+  min-width: 100%;
+ min-height: 100vh;
+  overflow: auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 320px; /* Initial width */
+  height: 200px; /* Initial height */
+}
